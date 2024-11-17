@@ -1,6 +1,6 @@
 # My Portfolio made while GeekSalon WebExpert Cource
 
-My Portfolio Demo 👉 _[Github Pages の URL を記載]_
+My Portfolio Demo 👉 _[Github Pages の URL を記載]_https://ktyh60.github.io/my-portfolio/
 
 (ここから上の行は、自分で編集してポートフォリオサイトの紹介にしてください。)
 
