@@ -1,14 +1,39 @@
+<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>鈴木隆真の自己紹介</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <div class="header-title">My Profile</div>
+    </header>
+    <div class="main-container">
+      <div class="profile">
+        <div class="section-title">自己紹介</div>
+        <div class="profile-content">
+          <div class="profile-image-container">
+            <img src="images/keirin.jpeg" class="profile-image" />
+          </div>
+          <div class="profile-detail">
+            <p class="name">鈴木隆真</p>
+            <p>出身: 静岡県 御殿場市出身</p>
+            <p>所属: 上智大学大学院 電気・電子工学専攻</p>
+            <p>趣味: <b>ポーカー</b> 旅行 サウナ お笑い</p>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="section-title">ポーカー</div>
+        <div class="card-container">
+          <div class="card-field" id="card-container"></div>
+          <button id="reflesh">Reset</button>
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

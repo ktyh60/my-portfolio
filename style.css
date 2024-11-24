@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+  background-color: #eee;
+}
+
+.profile-image-container {
+  width: 50%;
+}
+header {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  background-color: #0064a5;
+  display: flex;
+}
+.section-title {
+  border-left: #0064a5 solid 10px;
+  margin: 20px;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.header-title {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 40px;
+  background-color: #0064a5;
+  color: #ffffff;
+}
+
+.main-container {
+  padding: 100px 12px 12px 12px;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile {
+  width: 80%;
+}
+.profile-image {
+  height: auto;
+  width: 100%;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 15px 10px 15px 10px;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 15px 10px 15px 10px;
+}
+.card-field {
+  background-color: #eee;
+  padding: 50px;
+  border-radius: 30px;
+  margin: 20px;
+}
+.card-image {
+  width: 100px;
+  margin: 5px;
+  transform: translateY(100%); /* 最初は下に隠れる */
+  opacity: 0; /* 最初は透明 */
+  animation: slideUp 0.5s ease-out forwards; /* アニメーションを適用 */
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
